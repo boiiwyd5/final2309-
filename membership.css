@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    font-family: Arial, sans-serif;
+    height: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background: #000;
+    padding: 10px 0;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.navbar a:hover {
+    background-color: #555;
+    transition: background-color 0.3s ease;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 60px); /* Adjust based on your header/footer height */
+    
+}
+
+form {
+    width: 100%;
+    max-width: 500px;
+    background: #f8f8f8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: navy;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding-bottom: 100px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+
+.top-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000; /* Dark background for the top bar */
+    color: white;
+    padding: 10px 20px;
+}
+
+.logo {
+    height: 50px; /* Adjust size as necessary */
+    margin-right: 20px; /* Space between logo and gym name */
+}
+
+.top-bar h1 {
+    margin: 0;
+    font-size: 24px; /* Adjust size as necessary */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    background: #333; /* Slightly different shade for nav bar */
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.navbar a:hover {
+    background-color: #555;
+    transition: background-color 0.3s ease;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('background3.jpg');
+
+ /* Full height */
+    height: 50px; 
+
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+    height: 100px;
+    background-color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    height: 100vh;
+}
+
+.sidebar {
+    padding: 20px;
+    background-color: #f4f4f4;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
